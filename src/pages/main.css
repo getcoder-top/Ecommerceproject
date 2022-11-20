@@ -1,0 +1,447 @@
+*{
+    margin: 0px;
+}
+
+.div{
+    margin: 0px;
+    padding: 0px;
+}
+
+.div1{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    height: 50px;
+    display: flex;
+}
+
+.div1 img{
+    height: 80px;
+    width: 200px;
+}
+
+.searchbox{
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 20px;
+    width: 400px;
+    border-radius: 4px;
+}
+
+.nav{
+    margin-top: 4px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.788);
+    text-align: right;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: 40px;
+    transition: 00.6s ease;
+}
+
+.div1 a:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.div2 a:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+/* slide */
+.div2{
+  margin: 0px;
+  padding: 40px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.904);
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  /* .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  } */
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+  /* div3 */
+
+.div3{
+  background-color: rgba(245, 245, 245, 0.904);
+  height: 700px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.div3 h1{
+  color: white;
+  text-align: center;
+}
+
+.div3 img{
+  height: 100px;
+  width: 100px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.div3 .container {
+  position: relative;
+  max-width: 1200px;
+}
+
+/* Hide the images by default */
+.mySlides1 {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.div3 .cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.div3 .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.div3 .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.div3 .prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.div3 .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.div3 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.div3 .column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.div3 .demo {
+  opacity: 0.6;
+}
+
+.div3 .active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* div4 */
+/* card */
+
+.div4{
+  background-color: rgba(255, 255, 255, 0.911);
+  margin: 0px;
+  padding: 14px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card{
+  height: 40%;
+  width: 25%;
+  background-color: white;
+  margin: 10px;
+  padding: 0px;
+}
+
+.cardimage1{
+  height: 25%;
+  width: 100%;
+}
+
+.cardprice{
+  font-size: 20px;
+  font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.carddescription{
+  font-size: 14px;
+  font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.cardbutton{
+  height: 25%;
+  width: 100%;
+  margin-bottom: 0px;
+  margin: 0px;
+  padding: 10px;
+  background-color: rgba(65, 174, 241, 0.911);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+/* div5 */
+/* card2 */
+
+.div5{
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.911);
+}
+
+.card2{
+  height: 100%;
+  width: 25%;
+  margin: 10px;
+}
+
+.card2imagediv{
+  height: 40%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.card2image{
+  height: 40%;
+  width: 40%;
+  margin: 2px;
+}
+
+
+
+
+
+/* footer */
+
+.footer{
+  margin: 0px;
+  padding: 0px;
+  background-color: #1e2731;
+}
+
+.footerdiv1{
+  margin: 0px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.918);
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 6px;
+  font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footerdiv2{
+  margin: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerdiv3{
+  text-align: left;
+  margin: 10px;
+}
+
+.footerdiv3 h2{
+  font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.footer a{
+  font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+}
+
+.footer hr{
+  margin: 0px;
+  padding: 0px;
+  background-color: #f2f2f2;
+}
+
+.footerdiv4{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+.footerdiv4 h2{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+}
+
+.footerdiv4 h3{
+  color: white;
+  font-size: 14px;
+}
+
+.footerdiv4a{
+  margin: 10px;
+  padding: 10px;
+}
+
+.footerdiv4abutton{
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.footerdiv4a img{
+  height: 40px;
+  width: 80px;
+}
+
+.footerdiv5{
+  text-align: center;
+}
+
+.footerdiv5 img{
+  height: 80px;
+  width: 100px;
+}
+
+.footerdiv6{
+  font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+
+
+/* button */
+
+.button{
+    padding: 10px;
+    background-color: rgba(65, 174, 241, 0.911);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+  background-color: rgba(55, 160, 226, 0.911);
+}
+
+
+
